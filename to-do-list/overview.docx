@@ -1,0 +1,10 @@
+Creating an to-do-list using reactjs and go
+
+Backend (Go):
+
+Create an API using Go to manage tasks (add, list, mark as completed).
+Use the gorilla/mux package for routing.
+Frontend (React.js):
+
+Create a React app that communicates with the Go backend using API requests.
+Display tasks, allow adding tasks, and marking tasks as completed.
