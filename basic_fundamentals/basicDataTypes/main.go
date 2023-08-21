@@ -54,4 +54,17 @@ func main() {
 		fmt.Println("Hello! This is a infinite loooooppppppp!!!!!!!!!!!!!!!!")
 		break // used break because will be piss my system xD
 	}
+
+	// declaring the slices
+	var slices []string
+	var tempSlice string
+	for i := 0; i < 5; i++ {
+		fmt.Println("Enter some string!")
+		fmt.Scanln(&tempSlice)
+		slices = append(slices, tempSlice)
+	}
+	fmt.Println("Now I will print all the slices!")
+	for _, value := range slices {
+		fmt.Println(value)
+	}
 }
